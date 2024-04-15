@@ -1,10 +1,14 @@
 # Covid-19-Simulator
 My project that produces an abstracted simulation of the Covid-19 disease.
 
-#How does the program work?
+# How does the program work?
 The project uses the Pymunk library as a physics engine for the cells.
 
-The cells are initialised as a class with their state as an enumeration.
+The cells are initialised in a class, where the body of the cell is also initialised as attributes.
+
+The cell class has methods that draw the cells, infect the cells, etc.
+
+The number of cells at a time, t, is stored in an array for each cell type. This is used in the end to create the graph.
 
 # What does the program do?
 When you run the program, a menu comes up in the terminal. Here, you can change the parameters for the simulation.
